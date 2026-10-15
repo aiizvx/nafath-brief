@@ -26,9 +26,21 @@ Resource: Offline-first architecture - https://developer.android.com/topic/archi
 
 ## Networking
 
+5G network slicing allows a physical network to be divided into multiple virtual networks, each designed for specific requirements. A dedicated slice can provide emergency responders with more reliable connectivity and prioritize critical communications during peak periods. This helps responders share essential information even when many users are connected. However, network slicing alone cannot guarantee service availability during every network outage or cyberattack.
+
+Resource: Network Slicing - https://www.3gpp.org/technologies/network-slicing
+
 ## Cybersecurity
 
+The incident response lifecycle offers a systematic method for managing cybersecurity incidents. It includes preparation, detection and analysis, containment, eradication, recovery, and lessons learned. During an attack, the security team detects suspicious activity, assesses its impact, and limits the damage. The team then removes the threat, restores affected systems, and reviews the incident to improve future security. An effective response process reduces disruptions and protects essential services used by emergency responders.
+
+Resource: Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800/61/r2/final
+
 ## Data
+
+A star schema organizes data around a central fact table connected directly to dimension tables, simplifying reporting queries. A snowflake schema divides dimensions into additional related tables, reducing data redundancy but requiring more joins. For daily 5G usage reports by region, a star schema can be a practical choice because it simplifies queries and helps analysts summarize usage efficiently. The best design depends on data complexity and reporting requirements.
+
+Resource: Star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
 ## My Track: Misconception
 
