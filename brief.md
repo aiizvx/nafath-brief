@@ -44,4 +44,10 @@ Resource: Star schema - https://learn.microsoft.com/en-us/power-bi/guidance/star
 
 ## My Track: Misconception
 
+A common misconception in cybersecurity is that incident response begins only after a cyberattack occurs. In reality, preparation is an essential part of incident response because organizations need clear procedures, trained teams, and suitable tools before an incident happens. NIST's Computer Security Incident Handling Guide, under the section "Incident Response Life Cycle," identifies preparation as a key part of the process. Preparing in advance helps security teams respond effectively, reduce damage, and restore services more quickly.
+
+Source: Computer Security Incident Handling Guide — "Incident Response Life Cycle" https://csrc.nist.gov/pubs/sp/800/61/r2/final
+
 ## Open Question
+
+How can AI detect early signs of a potential cyberattack before it begins and alert security teams to take preventive action while keeping emergency 5G services available?
